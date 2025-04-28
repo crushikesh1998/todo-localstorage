@@ -1,0 +1,36 @@
+.items__container{
+    border: 1px solid rgb(87, 83, 83);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+    justify-content: space-between;
+    border-radius: 5px solid;
+    .items__checkbox{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        
+        input{
+            cursor: pointer;
+            outline: none;
+            border: none;
+                }
+        
+    }
+
+    .items__actions{
+        button{
+            padding: 3px 7px;
+            margin-right: 8px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        :last-child{
+            background-color: rgb(146, 43, 12);
+            color: white;
+            
+        }
+    }
+}
